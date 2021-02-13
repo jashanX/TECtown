@@ -1,0 +1,160 @@
+body{
+    background:linear-gradient(to bottom right,black,white);
+    background-attachment: fixed;
+}
+.container{
+    background-color:white;
+}
+.header{
+    background-image: url('./images/y.jpg');
+    
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.logo{
+    height:50px;
+    width:50px;
+}
+.company{
+    font-size: 5.5vw;
+    line-height: 5.5vw;
+    text-align: center;
+    justify-content: center;
+    padding: calc(5vh) 0 calc(5vh) 0; 
+}
+.company a{
+    text-decoration: none;
+    color:white;
+    font-family: arial;
+    font-weight: bold;
+}
+.nav {
+    margin : 0 auto;
+}
+video{
+    border:0;
+}
+.nav li a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.3vw;
+}
+.nav li a:hover{
+    background:white;
+    color:black;
+}
+.active{
+    background:orange;
+}
+.nav .active:hover{
+    color:white;
+    background: black;
+}
+.thumbnail{
+    width:100%;
+    margin:0;
+    padding:0;
+    height:auto;
+    border:0;
+}
+#firstrow{
+    justify-content: center;
+    align-items: center;   
+    display: flex;
+}
+#firstrow a{
+    font-size: 2.9vw;
+    font-family: impact;
+    color:black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#firstrow a:hover{
+    color:rgb(240, 20, 174);
+    cursor: pointer;
+    text-decoration: none;
+}
+.row{
+    margin-top: 70px;
+    text-align: center;
+}
+.row span a{
+    font-size: 1.8vw;
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    
+}
+.row span a:hover{
+    cursor: pointer;
+    color:rgb(240, 20, 174);
+    text-decoration: none;
+}
+@media screen and (min-width: 601px) {
+    #firstrow .description a{
+      font-size: 2.9vw;
+    }
+    .row span a{
+        font-size: 1.8vw;
+    }
+    .nav li a{
+        font-size: 1.3vw;
+    }
+}
+@media screen and (max-width: 600px) {
+    #firstrow .description a{
+      font-size: 4vw;
+    }
+    .row span a{
+        font-size: 4vw;
+    }
+    .nav li a{
+        font-size: 3vw;
+    }
+}
+.footer{
+    bottom:0;
+    text-align:center;
+    color:white;
+    
+    font-size: 1vw;
+}
+.footer img{
+    width:40px;
+}
+.footer a{
+    text-decoration: none;
+    color:rgb(131, 131, 111);
+    font-weight: bold;
+   
+}
+.footer a{
+    text-decoration: none;
+    cursor: pointer;
+    color:white;
+}
+.linkt{
+    text-decoration: none;
+    color:blue;
+    font-family:arial;
+}
+p{
+    text-align: justify;
+}
+
+.fullimage{
+    width:100%;
+}
+.caption{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: impact;
+    color:brown;
+    
+}
+.col-sm-10{
+    text-align: left;
+}
+#explain {
+    font-size: 19px;
+}
